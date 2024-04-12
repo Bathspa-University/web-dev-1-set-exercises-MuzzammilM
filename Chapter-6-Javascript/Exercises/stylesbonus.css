@@ -1,61 +1,101 @@
+/* Set the font family for the entire body of the document */
 body {
   font-family: Arial, sans-serif;
+  /* Set the background color for the entire body of the document */
   background-color: #f4f4f4;
+  /* Remove the margins and padding for the entire body of the document */
   margin: 0;
   padding: 0;
 }
 
+/* Set the styles for the container */
 .container {
+  /* Set the maximum width for the container */
   max-width: 400px;
+  /* Center the container horizontally */
   margin: 50px auto;
+  /* Add padding to the container */
   padding: 20px;
+  /* Set the background color for the container */
   background-color: #fff;
+  /* Add rounded corners to the container */
   border-radius: 5px;
+  /* Add a shadow to the container */
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  /* Center the text within the container */
   text-align: center;
 }
 
+/* Set the styles for the h1 heading */
 h1 {
+  /* Add a bottom margin to the h1 heading */
   margin-bottom: 20px;
+  /* Set the text color for the h1 heading */
   color: #333;
 }
 
+/* Set the styles for the element with the id of "rgbValue" */
 #rgbValue {
+  /* Add a bottom margin to the element with the id of "rgbValue" */
   margin-bottom: 20px;
+  /* Set the font size for the element with the id of "rgbValue" */
   font-size: 24px;
 }
 
+/* Set the styles for the element with the id of "colorOptions" */
 #colorOptions {
+  /* Display the element with the id of "colorOptions" as a flex container */
   display: flex;
+  /* Center the flex items along the horizontal axis */
   justify-content: center;
+  /* Allow the flex items to wrap onto multiple lines */
   flex-wrap: wrap;
+  /* Add a bottom margin to the element with the id of "colorOptions" */
   margin-bottom: 20px;
 }
 
+/* Set the styles for the elements with the class of "colorOption" */
 .colorOption {
+  /* Set the width and height for the elements with the class of "colorOption" */
   width: 80px;
   height: 80px;
+  /* Add margins to the elements with the class of "colorOption" */
   margin: 10px;
+  /* Set the cursor to a pointer when hovering over the elements with the class of "colorOption" */
   cursor: pointer;
+  /* Add rounded corners to the elements with the class of "colorOption" */
   border-radius: 5px;
 }
 
+/* Set the styles for the element with the id of "message" */
 #message {
+  /* Add bold font weight to the element with the id of "message" */
   font-weight: bold;
+  /* Add a bottom margin to the element with the id of "message" */
   margin-bottom: 20px;
 }
 
+/* Set the styles for the button elements */
 button {
+  /* Add padding to the button elements */
   padding: 8px 20px;
+  /* Set the background color for the button elements */
   background-color: #007bff;
+  /* Set the text color for the button elements */
   color: #fff;
+  /* Remove the border for the button elements */
   border: none;
+  /* Add rounded corners to the button elements */
   border-radius: 3px;
+  /* Set the cursor to a pointer when hovering over the button elements */
   cursor: pointer;
+  /* Add a transition effect for the background color of the button elements */
   transition: background-color 0.3s;
 }
 
+/* Set the styles for the button elements when hovering over them */
 button:hover {
+  /* Set the background color for the button elements when hovering over them */
   background-color: #0056b3;
 }
 

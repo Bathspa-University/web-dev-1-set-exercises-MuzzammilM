@@ -1,53 +1,89 @@
+/* Set the font family for the entire body of the document */
 body {
     font-family: Arial, sans-serif;
+    /* Set the background color for the entire body of the document */
     background-color: #f4f4f4;
+    /* Remove the margins and padding for the entire body of the document */
     margin: 0;
     padding: 0;
 }
 
+/* Set the styles for the calculator container */
 .calculator {
+    /* Set the maximum width for the calculator container */
     max-width: 400px;
+    /* Center the calculator container horizontally */
     margin: 50px auto;
+    /* Add padding to the calculator container */
     padding: 20px;
+    /* Set the background color for the calculator container */
     background-color: #fff;
+    /* Add rounded corners to the calculator container */
     border-radius: 5px;
+    /* Add a shadow to the calculator container */
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    /* Center the text within the calculator container */
     text-align: center;
 }
 
+/* Set the styles for the h1 heading */
 h1 {
+    /* Add a bottom margin to the h1 heading */
     margin-bottom: 20px;
+    /* Set the text color for the h1 heading */
     color: #333;
 }
 
+/* Set the styles for the label elements */
 label {
+    /* Display the label elements as blocks */
     display: block;
+    /* Add a bottom margin to the label elements */
     margin-bottom: 5px;
 }
 
+/* Set the styles for the input elements */
 input {
+    /* Set the width for the input elements */
     width: 100%;
+    /* Add padding to the input elements */
     padding: 8px;
+    /* Add a bottom margin to the input elements */
     margin-bottom: 10px;
+    /* Add a border to the input elements */
     border: 1px solid #ccc;
+    /* Add rounded corners to the input elements */
     border-radius: 3px;
 }
 
+/* Set the styles for the button elements */
 button {
+    /* Add padding to the button elements */
     padding: 8px 20px;
+    /* Set the background color for the button elements */
     background-color: #007bff;
+    /* Set the text color for the button elements */
     color: #fff;
+    /* Remove the border for the button elements */
     border: none;
+    /* Add rounded corners to the button elements */
     border-radius: 3px;
+    /* Set the cursor to a pointer when hovering over the button elements */
     cursor: pointer;
+    /* Add a transition effect for the background color of the button elements */
     transition: background-color 0.3s;
 }
 
+/* Set the styles for the button elements when hovering over them */
 button:hover {
+    /* Set the background color for the button elements when hovering over them */
     background-color: #0056b3;
 }
 
+/* Set the styles for the element with the id of "totalCost" */
 #totalCost {
+    /* Add bold font weight to the element with the id of "totalCost" */
     font-weight: bold;
+    /* Add a top margin to the element with the id of "totalCost" */
     margin-top: 20px;
 }
