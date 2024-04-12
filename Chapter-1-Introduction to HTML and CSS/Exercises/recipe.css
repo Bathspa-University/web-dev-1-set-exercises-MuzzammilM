@@ -1,0 +1,66 @@
+/* I used this to put my recipe name in the middle.*/
+h1{
+    text-align: center;
+}
+
+/* The container was used to make the image beside the description.*/
+.container {
+    display: flex;
+    align-items: center;
+}
+
+/* Making sure that the image width and height is good and it is beside the description.*/
+.image {
+    width: 200px;
+    height: 200px;
+    margin-right: 20px;
+}
+
+/* The width and padding of the description so that the description is not too close to the image.*/
+.description {
+    width: 50%;
+    padding-left: 20px;
+}
+
+/* To create a box around the ingredients and method conntent.*/
+/* The border is none thats how the border of the box is not visible.*/
+.ingredients-box,.method-box {
+    border: none;
+    padding: 10px;
+    margin: 10px;
+}
+
+/* The width of the box is changed by this code.*/
+.ingredients-box {
+    width: 45%;
+}
+
+/* All the customization done to the box are done by these codes.*/
+.ingredients-box {
+    border: none;
+    padding: 5px;
+    margin: 10px;
+    width: 30%;
+}
+
+/* To set the margin on the box of ingredients.*/
+.ingredients-box h2 {
+    margin-top: 0;
+}
+
+/* The unorderlist of the ingredients is compressed so that it can fit in the box.*/
+.ingredients-box ul {
+    margin-bottom: 0;
+}
+
+/* The method box width.*/
+.method-box {
+    width: 45%;
+}
+/* This is the codes to put a saved image in the background of your page.*/
+body {
+    color: white;
+    background-image: url('background image.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
