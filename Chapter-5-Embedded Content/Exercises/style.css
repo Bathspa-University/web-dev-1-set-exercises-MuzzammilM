@@ -1,41 +1,69 @@
+/* Set the font family for the entire body of the document */
 body {
     font-family: Arial, sans-serif;
+    /* Set the background color of the body of the document */
     background-color: #f7f7f7;
+    /* Set the margin and padding of the body of the document to 0 */
     margin: 0;
     padding: 0;
 }
 
+/* Set the styles for the container div */
 .container {
+    /* Set the maximum width of the container div to 800px */
     max-width: 800px;
+    /* Center the container div horizontally */
     margin: 20px auto;
+    /* Set the padding of the container div to 20px */
     padding: 20px;
+    /* Set the background color of the container div to white */
     background-color: #fff;
+    /* Set the border radius of the container div to 5px */
     border-radius: 5px;
+    /* Set the box shadow of the container div */
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    /* Center the text inside the container div */
     text-align: center;
 }
 
+/* Set the styles for the h1 heading */
 h1 {
+    /* Set the color of the h1 heading to #333 */
     color: #333;
 }
 
+/* Set the styles for the soundboard div */
 .soundboard {
+    /* Set the display property of the soundboard div to grid */
     display: grid;
+    /* Set the number of columns in the grid to 3 */
     grid-template-columns: repeat(3, 1fr);
+    /* Set the gap between the grid cells to 10px */
     gap: 10px;
+    /* Set the margin top of the soundboard div to 20px */
     margin-top: 20px;
 }
 
+/* Set the styles for the sound div */
 .sound {
+    /* Set the padding of the sound div to 20px */
     padding: 20px;
+    /* Set the background color of the sound div to #007bff */
     background-color: #007bff;
+    /* Set the color of the text inside the sound div to white */
     color: #fff;
+    /* Set the border radius of the sound div to 5px */
     border-radius: 5px;
+    /* Set the cursor to pointer when hovering over the sound div */
     cursor: pointer;
+    /* Set the transition property for the background-color and color properties */
     transition: background-color 0.3s, color 0.3s;
 }
 
+/* Set the styles for the sound div when hovered over */
 .sound:hover {
+    /* Set the background color of the sound div to #0056b3 when hovered over */
     background-color: #0056b3;
+    /* Set the color of the text inside the sound div to white when hovered over */
     color: #fff;
 }
