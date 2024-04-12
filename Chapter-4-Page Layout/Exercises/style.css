@@ -1,0 +1,97 @@
+body {
+    /* Set the font family for the entire body */
+    font-family: Arial, sans-serif;
+    /* Remove the margin and padding from the body */
+    margin: 0;
+    padding: 0;
+    /* Set the display to flex and the direction to column to create a vertical layout */
+    display: flex;
+    flex-direction: column;
+    /* Set the minimum height of the body to 100vh to make it take up the full height of the viewport */
+    min-height: 100vh;
+}
+
+header {
+    /* Set the background color of the header */
+    background-color: beige;
+    /* Set the text color of the header */
+    color: black;
+    /* Center the text in the header */
+    text-align: center;
+    /* Add padding to the top and bottom of the header */
+    padding: 10px 0;
+}
+
+nav {
+    /* Set the background color of the navigation bar */
+    background-color: bisque;
+    /* Center the text in the navigation bar */
+    text-align: center;
+    /* Add padding to the top and bottom of the navigation bar */
+    padding: 10px 0;
+}
+
+nav ul {
+    /* Remove the list style type from the navigation bar */
+    list-style-type: none;
+    /* Remove the padding from the navigation bar */
+    padding: 0;
+}
+
+nav ul li {
+    /* Display the list items in the navigation bar as inline-block */
+    display: inline-block;
+    /* Add margin to the right of each list item */
+    margin-right: 20px;
+}
+
+main {
+    /* Set the flex property to 1 to make the main element take up all available space */
+    flex: 1;
+    /* Set the display to flex and the flex-wrap to wrap to create a grid layout */
+    display: flex;
+    flex-wrap: wrap;
+    /* Add padding to the main element */
+    padding: 20px;
+}
+
+section {
+    /* Set the width of each section to 30% */
+    width: 30%;
+    /* Add margin to the bottom of each section */
+    margin-bottom: 20px;
+}
+
+footer {
+    /* Set the background color of the footer */
+    background-color: #333;
+    /* Set the text color of the footer */
+    color: white;
+    /* Center the text in the footer */
+    text-align: center;
+    /* Add padding to the top and bottom of the footer */
+    padding: 10px 0;
+    /* Add margin to the top of the footer to push it to the bottom of the page */
+    margin-top: auto;
+}
+
+table {
+    /* Remove the space between the cells in the table */
+    border-collapse: collapse;
+    /* Set the width of the table to 100% */
+    width: 100%;
+}
+
+th, td {
+    /* Add a border to each cell in the table */
+    border: 1px solid black;
+    /* Add padding to each cell in the table */
+    padding: 8px;
+    /* Align the text to the left in each cell */
+    text-align: left;
+}
+
+th {
+    /* Set the background color of the table header */
+    background-color: #f2f2f2;
+}
