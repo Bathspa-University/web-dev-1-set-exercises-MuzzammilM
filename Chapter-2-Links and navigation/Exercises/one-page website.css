@@ -1,0 +1,64 @@
+/* This body selector targets the element in html file. It changes the font of the text as well as the margin */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* This is a class which created the width and margin of the webpage. The padding creats the affect on how up or down the title should be.*/
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* This class aligns the series name and with the help of margin bottom the title is a bit up.*/
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* The nav ul class effects the nav bar for the unorder list created */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* This is more or less connected to the upper class and basically over here the display in the nav ul li is making sure that the text is inline.*/
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+/* This section class is setting the margin bottom of the section in html which gets effected in the webpage.*/
+section {
+    margin-bottom: 30px;
+}
+
+/* This footer is for the link to netflix the text-align makes sure it is in the centre of the webpage.*/
+footer {
+    text-align: center;
+    margin-top: 30px;
+}
+
+/* The button is related to the netflix button which is shown in the webpage the display changes the shape of it.
+The padding makes sure the space between the content of an element and its border is balanced. The background color is blue so it appears blue in the webpage.*/
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/*This is the footer that effects the copyright statement making the small box color grey with the help of background-color.
+The text aligned in the center.*/
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
