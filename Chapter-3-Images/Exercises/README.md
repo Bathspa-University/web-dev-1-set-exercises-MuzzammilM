@@ -49,7 +49,7 @@ Using the starter code below edit the files to recreate the image provided
 
 #### style.css:
 
-```
+
 div {
   display: inline-block;
   font-family: sans-serif;
