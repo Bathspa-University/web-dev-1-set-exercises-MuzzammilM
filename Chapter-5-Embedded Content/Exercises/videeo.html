@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mbappe hattrick</title>
+</head>
+<body>
+    <!--The style tag for designing the video.-->
+    <style> /*The style tag is a html element which is used to style the video display,like the height width background color etc.*/
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f3f3f3;
+            font-family: Arial, sans-serif;
+        }
+
+        /* This is the video part of styling it controls the width and height of the video.*/
+        video {
+            max-width: 100%;
+            height: 350px;
+        }
+    </style> <!--This is the end of the style.-->
+</head>
+<body> <!-- The control attribute allows the user to play,pause,and adjust the volume of the video if needed.-->
+    <video controls loop poster="poster.jpg">  <!--This is the video tag which is used to display the video.The loop command is there for the video to be at a constant loop after the video is finished.-->
+        <source src="mbappe.mp4" type="video/mp4"><!--This is the source tag which is used to display the video. This is where the video link is added for the video to be appeared on the webpage.-->
+        <!-- The type attribute helps the browser determine whether it can play the video before downloading it.-->
+        Your browser does not support the video tag. <!--This is the text which is displayed if the video is not supported by the browser.-->
+
+    </video> <!--This is the end of the video tag.-->
+
+</body>
+</html>
